@@ -1,5 +1,37 @@
-@import "bootstrap/dist/css/bootstrap.min.css";
-
-body{
-    background: white;
+body {
+    background: rgb(48, 84, 247);
 }
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    height: 600px;
+    font-family: "bangers";
+}
+
+h1,p{
+    color: azure;
+    font-variant-caps: small-caps;
+    letter-spacing: 2px;
+
+
+}
+
+h1{
+    font-size: 60px;
+}
+p{
+    font-size: 40px;
+
+}
+img {
+    height: 150px;
+    width: auto;
+    border-radius: 200px;
+}
+
+body {
+    transition: background 1s;
+  }
